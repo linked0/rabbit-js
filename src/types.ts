@@ -1,7 +1,3 @@
-import { AllBasic as AllBasicContract, AllBasicInterface } from "../typechain-types/web/ex/contracts/AllBasic";
+import { AllBasic as AllBasicContract } from "./typechain-types/AllBasic";
 
 export type { AllBasicContract };
-
-export {
-  AllBasicInterface
-};

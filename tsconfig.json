@@ -1,11 +1,27 @@
 {
   "compilerOptions": {
-    "target": "es2020",
-    "module": "commonjs",
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    "outDir": "lib",
+    "target": "es5",
+    "lib": ["dom", "esnext"],
+    "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true
-  }
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noErrorTruncation": true,
+    "noImplicitThis": false,
+    "noUnusedParameters": true,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "strict": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "rootDir": "./src",
+    "downlevelIteration": true
+  },
+  "include": ["./src/**/*", "./src/artifacts"]
 }

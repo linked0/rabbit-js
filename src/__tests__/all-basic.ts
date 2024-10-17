@@ -1,5 +1,4 @@
 import { expect } from "chai";
-import { ethers } from "ethers-v5";
 import hre from "hardhat";
 import { fullSuiteFixture } from "./utils/full-suite.fixture";
 
